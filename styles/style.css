@@ -1,0 +1,51 @@
+
+header{
+    max-width: 1440px;
+}
+/* head title */
+.head-title{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.download-resume{
+    border: 1px solid #0D1321;
+    padding: 17px 24px;
+
+    font-size: 20px;
+    font-weight: 400; 
+    margin-right: 150px;  
+}
+.head-title a{
+    text-decoration: none;
+}
+.dark{
+    color: #0D1321;
+}
+/* shared item */
+.text-center{
+    text-align: center;
+}
+/* section of head styles */
+.head-main{
+    font-weight: 900;
+    font-size: 48px;
+}
+.head-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-button{
+    background-color: #0D1321;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 21px 24px;
+}
+.intro{
+    background-image: url(../assets/Hero-bg.png);
+}
