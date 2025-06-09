@@ -1,6 +1,9 @@
-
-header{
+body{
     max-width: 1440px;
+}
+header{
+    width: 100%;
+    margin-bottom: 74px;
 }
 /* head title */
 .head-title{
@@ -38,6 +41,7 @@ header{
 .head-description{
     font-size: 16px;
     font-weight: 400;
+    margin: 27px 0;
 }
 .contact-button{
     background-color: #0D1321;
@@ -47,5 +51,63 @@ header{
     padding: 21px 24px;
 }
 .intro{
-    background-image: url(../assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);}
+
+
+
+/* section of body */
+
+main{
+    width: 80%;
+    margin: 0 auto;
+background-color: rgba(13, 19, 33, 0.02);
+}
+ /* 1st section */
+ .why-web-dev{
+    width: 75%;
+    background-color: #FFFFFF;
+    margin:0 auto;
+    padding: 80px 144px;
+    margin-bottom: 74px;
+ }
+ .main-title{
+    margin-bottom: 48px;
+ }
+ .main-heading{
+    font-size: 32px;
+    font-weight: 900;
+ }
+ .main-title-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 1);
+
+ }
+ .code-plan,.achieve-plan{
+    display: flex;
+    justify-content: space-between;
+ }
+ .code-planning,.web-planning,.achieve-planning{
+    width: 447px;
+    text-align: start;
+ }
+ .learn-more{
+    text-align:left;
+    font-size: 20px;
+    font-weight: 600px;
+    padding: 12px 20px;
+ }
+ .web-plan{
+    display: flex;
+    justify-content: space-around;
+ }
+.code-description,.web-description,.achieve-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.code-plan,.web-plan,.achieve-plan{
+    margin-bottom: 80px;
+    background-color: aliceblue;
+    padding: 48px;
+
 }
