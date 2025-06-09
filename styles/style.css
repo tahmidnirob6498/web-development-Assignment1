@@ -111,3 +111,33 @@ background-color: rgba(13, 19, 33, 0.02);
     padding: 48px;
 
 }
+.skill-learn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 48px;
+
+    
+}
+.target{
+    margin-top: 140px;
+}
+.css,.html,.javascript{
+    width: 25%;
+    padding: 35px;
+    align-items: center;
+}
+.html{
+    background-color:rgba(255, 76, 30, 0.05)
+}
+.css{
+    background-color:rgba(0, 76, 232, 0.05);
+}
+.javascript{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.html-descript,.css-descript{
+    margin-bottom: 40px;
+}
+.jscript-descript{
+margin-bottom: 25px;
+}
