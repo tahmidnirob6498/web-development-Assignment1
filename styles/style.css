@@ -1,5 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body{
     max-width: 1440px;
+ font-family: "Azeret Mono", monospace;
+
 }
 header{
     width: 100%;
@@ -172,6 +178,9 @@ input[type="text"]{
     width: 548px;
     padding: 19px 0 19px 19px;
     border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
 }
 input[type="submit"]{
     width: 120px;
@@ -196,4 +205,38 @@ input[type="submit"]{
 }
 .support-description{
     color: #FFFFFF;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    margin-right: 24px;
+}
+.commited{
+    font-weight: 400;
+    font-size: 20px;
+}
+/* hover style */
+.contact-button:hover{
+    background-color: dimgrey;
+}
+input[type="submit"]:hover{
+    background-color: #999;
+}
+.ld,.gh,.fb{
+    display: inline;
+    position: relative;
+
+}
+.ld:hover{
+    width: 50px;
+    
+}
+.gh:hover{
+    width: 50px;
+    
+}
+.fb:hover{
+    width: 50px;
 }
