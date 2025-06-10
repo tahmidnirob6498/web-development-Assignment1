@@ -121,6 +121,10 @@ background-color: rgba(13, 19, 33, 0.02);
 .target{
     margin-top: 140px;
 }
+.target-head{
+    font-weight: 900;
+    font-size: 32px;
+}
 .css,.html,.javascript{
     width: 25%;
     padding: 35px;
@@ -140,4 +144,56 @@ background-color: rgba(13, 19, 33, 0.02);
 }
 .jscript-descript{
 margin-bottom: 25px;
+}
+.reactjs,.nodejs,.mongoDB{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+    
+}
+.about{
+    border: 1px solid #999;
+    padding: 10px 40px;
+    
+    margin-bottom: 24px;
+}
+.skill-description{
+    text-align: start;
+}
+/* footer style */
+footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+input[type="text"]{
+    width: 548px;
+    padding: 19px 0 19px 19px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    width: 120px;
+    height:55px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.support{
+    background-image: url(../assets/handshake.jpg);
+    height: 313px;
+    background-size: cover;
+    background-position: center;
+
+}
+.support-head{
+    padding-top: 64px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+}
+.support-description{
+    color: #FFFFFF;
 }
